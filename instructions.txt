@@ -1,0 +1,17 @@
+1.auto publish and insecure packages removed from .meteor/packages as this packages are used for prototyping that package shows all data to client
+
+
+2."meteor": {
+    "mainModule": {
+      "client": "client/main.js",
+      "server": "server/main.js"
+    },
+    "testModule": "tests/main.js"
+  }
+
+this key is removed from package.json to access all files in all folders (we do not required to import files.)
+
+
+3.jquery and bootstrap css are imported in main.html file. 
+
+4.iron router is used for routing of templates routes are written in ./routes/index.js file.
